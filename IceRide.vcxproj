@@ -182,11 +182,20 @@
     <None Include="default.vert" />
     <None Include="light.frag" />
     <None Include="light.vert" />
+    <None Include="skyBox.frag" />
+    <None Include="skyBox.vert" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Textures\backWall.jpg" />
+    <Image Include="Textures\behindWall.jpg" />
     <Image Include="Textures\dark_blue_sparkle_texture.jpg" />
     <Image Include="Textures\grass.png" />
     <Image Include="Textures\grassSpec.png" />
+    <Image Include="Textures\leftWall.jpg" />
+    <Image Include="Textures\rightWall.jpg" />
+    <Image Include="Textures\snowGround.jpg" />
+    <Image Include="Textures\sky.png" />
+    <Image Include="Textures\top.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
